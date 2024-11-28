@@ -6,13 +6,13 @@
 
 main:
   - title: "CV"
-    url: /cv/  
+    url: files/MostafaRiazi_CV.pdf  
 
   - title: "Research"
     url: /research/  
     
   - title: "Publications"
-    url: /publications/  
+    url: https://scholar.google.com/citations?user=ohf7xysAAAAJ  
 
 #  - title: "Teaching"
 #    url: /teaching/    
