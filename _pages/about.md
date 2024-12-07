@@ -13,11 +13,4 @@ redirect_from:
 
 🚀 I am also interested in assisting others in the fascinating realms of hydrology and hydrogeology. Join me as I explore and tackle the pressing global water challenges of our time!
 
----
-permalink: /
-title: "🚧🔨This Website is a Work in Progress – Stay Tuned!⏳ "
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+# 🚧🔨This Website is a Work in Progress – Stay Tuned!⏳
