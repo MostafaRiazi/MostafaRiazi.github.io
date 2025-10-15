@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "Dofoto_20251014_104238076.jpg"
   name             : "Mostafa Riazi"
-  pronouns         : "he/him"  
+  pronouns         : #"he/him"  
   bio              : "Emerging Researcher in Hydrology and Hydrogeology"
   location         : "Stuttgart, Germany"
   employer         : "University of Stuttgart"
