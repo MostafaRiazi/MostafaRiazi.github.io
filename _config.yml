@@ -23,11 +23,11 @@ author:
   # Biographic information
   avatar           : "Dofoto_20251014_104238076.jpg"
   name             : "Mostafa Riazi"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him"  
   bio              : "Emerging Researcher in Hydrology and Hydrogeology"
-  location         : "Isfahan, Iran"
-  employer         : "Islamic Azad University"
-  uri              : # URL
+  location         : "Stuttgart, Germany"
+  employer         : "University of Stuttgart"
+  uri              : https://www.iws.uni-stuttgart.de/institut/team/Riazi/
   email            : "mriazi13@gmail.com" 
 
   # Academic websites
