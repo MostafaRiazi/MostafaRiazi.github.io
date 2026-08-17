@@ -349,14 +349,13 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
-  width: fit-content;
-  max-width: 100%;
+  width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
-
   text-align: center;
   margin-inline: auto;
   line-height: 1.4;
+  white-space: nowrap;
 }
 
 .info_more-btn {
