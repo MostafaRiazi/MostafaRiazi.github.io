@@ -353,7 +353,9 @@ main {
   max-width: 100%;
   padding: 3px 12px;
   border-radius: 8px;
+
   text-align: center;
+  margin-inline: auto;
   line-height: 1.4;
 }
 
