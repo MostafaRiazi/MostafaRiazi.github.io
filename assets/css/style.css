@@ -1884,9 +1884,3 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-
-.service-icon-box ion-icon {
-  color: var(--orange-yellow-crayola);
-  font-size: 40px;
-  margin-inline: auto;
-}
