@@ -49,7 +49,7 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
 }
 
-// add click event to modal close button
+// add click events only when the testimonials modal exists
 if (modalCloseBtn) {
   modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 }
