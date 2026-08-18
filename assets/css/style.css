@@ -112,6 +112,172 @@
 }
 
 
+/*-----------------------------------*\
+  #CUSTOM RESUME
+\*-----------------------------------*/
+
+.resume-section { margin-bottom: 30px; }
+
+.resume-section > .title-wrapper { margin-bottom: 20px; }
+
+.resume .content-card {
+  padding: 20px;
+  cursor: default;
+}
+
+.resume-entry-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resume-entry-heading .h4,
+.resume-skill-card .h4,
+.resume-info-card .h4 {
+  margin-bottom: 8px;
+}
+
+.resume-organization,
+.resume-card-text,
+.resume-skill-card p,
+.test-score p,
+.resume-achievement-list span {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.resume-date,
+.test-score-heading span {
+  color: var(--vegas-gold);
+  font-size: var(--fs-7);
+  white-space: nowrap;
+}
+
+.resume-card-text {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--jet);
+}
+
+.resume-card-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.resume-skill-card {
+  min-height: 100%;
+}
+
+.resume-two-column {
+  display: grid;
+  gap: 15px;
+}
+
+.resume-detail-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--jet);
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+}
+
+.resume-detail-list li:last-child { border-bottom: 0; }
+
+.resume-detail-list strong,
+.test-score-heading strong,
+.resume-achievement-list strong {
+  color: var(--white-2);
+  font-weight: var(--fw-500);
+}
+
+.test-score + .test-score {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--jet);
+}
+
+.test-score-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 6px;
+}
+
+.resume-achievement-group:not(:last-child) { margin-bottom: 22px; }
+
+.resume-subtitle { margin-bottom: 12px; }
+
+.resume-achievement-list {
+  display: grid;
+  gap: 10px;
+}
+
+.resume-achievement-list li {
+  position: relative;
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px 14px 36px;
+  background: var(--border-gradient-onyx);
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.resume-achievement-list li::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.resume-achievement-list li::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  width: 7px;
+  height: 7px;
+  background: var(--text-gradient-yellow);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--jet);
+}
+
+.resume-download {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.resume-download .resume-download-btn {
+  width: max-content;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media (min-width: 580px) {
+  .resume-entry-heading {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .resume-card-grid,
+  .resume-two-column {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .resume-skill-card:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+
 
 
 
@@ -352,10 +518,6 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
-  text-align: center;
-  margin-inline: auto;
-  line-height: 1.4;
-  white-space: nowrap;
 }
 
 .info_more-btn {
